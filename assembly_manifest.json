@@ -7,6 +7,7 @@
     "faq/index.html",
     "terms/index.html",
     "privacy/index.html",
+    "gallery/index.html",
     "services/backyard-turf-lawns/index.html",
     "services/backyard-putting-greens/index.html",
     "services/pet-friendly-turf/index.html",
@@ -20,8 +21,8 @@
     "cost-guides/artificial-turf-cost-dallas/index.html",
     "cost-guides/backyard-putting-green-cost-dallas/index.html"
   ],
-  "total_pages": 18,
-  "image_count": 15,
+  "total_pages": 19,
+  "image_count": 50,
   "all_urls": [
     "/",
     "/about/",
@@ -29,6 +30,7 @@
     "/faq/",
     "/terms/",
     "/privacy/",
+    "/gallery/",
     "/services/backyard-turf-lawns/",
     "/services/backyard-putting-greens/",
     "/services/pet-friendly-turf/",
@@ -47,5 +49,5 @@
     "/blog/how-long-does-artificial-turf-last-texas-heat-university-park/",
     "/blog/best-grade-of-artificial-grass-premium-yard-university-park/"
   ],
-  "assembled_at": "2026-11-17T16:07:12.684776+00:00"
+  "assembled_at": "2026-11-17T20:31:24.905677+00:00"
 }
