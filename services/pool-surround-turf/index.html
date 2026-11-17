@@ -512,6 +512,10 @@ body.section-tint-subtle #faq {
 #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3) {
   grid-column: 2; grid-row: 2;
 }
+/* Six photos (client photo extras, 2026-11-17): the same pattern again, one large + two stacked. */
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(4) { grid-column: 1; grid-row: 3 / 5; }
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(5) { grid-column: 2; grid-row: 3; }
+#gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(6) { grid-column: 2; grid-row: 4; }
 #gallery.gallery-variant-asymmetric-feature .gallery-item img {
   width: 100%;
   height: 100%;
@@ -523,7 +527,10 @@ body.section-tint-subtle #faq {
   }
   #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(1),
   #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(2),
-  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3) {
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(3),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(4),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(5),
+  #gallery.gallery-variant-asymmetric-feature .gallery-item:nth-child(6) {
     grid-column: 1; grid-row: auto;
   }
 }
@@ -5003,18 +5010,18 @@ body.feel-garden-gate .area-cta-card p { color: var(--text-mid) !important; font
   <div class="svc-photo-strip-wrap">
 <section id="gallery" class="section-pad gallery-variant-grid svc-photo-strip" aria-labelledby="svc-photos-heading">
   <div class="container">
-    <div class="gallery-header"><div><h2 class="section-title" id="svc-photos-heading">Pool Surround Turf Photos</h2></div></div>
+    <div class="gallery-header"><div><span class="section-eyebrow">Photos</span><h2 class="section-title" id="svc-photos-heading">Pool Surround Turf</h2></div></div>
     <div class="gallery-grid">
       <figure class="gallery-item" data-group="more">
-        <img src="/images/service_4_strip_1.webp" alt="Narrow turf seams between wide limestone slabs around a blue tile pool with a lava rock fire bowl and glass doors" loading="lazy" width="400" height="300">
+        <img src="/images/service_4_strip_1.webp" alt="Wide turf lawn curving around a stamped concrete pool deck with path lights, beside a stone ranch house and open land" loading="lazy" width="400" height="300">
+        <figcaption class="gallery-caption">Pool surround</figcaption>
+      </figure>
+      <figure class="gallery-item" data-group="more">
+        <img src="/images/service_4_strip_2.webp" alt="Turf lawn stretching past a black tiled pool pavilion with waterfalls, next to a blue sport court and bare trees" loading="lazy" width="400" height="300">
         <figcaption class="gallery-caption">Pool surround</figcaption>
       </figure>
       <figure class="gallery-item" data-group="more">
         <img src="/images/service_4_strip_3.webp" alt="Bright green turf yard stretching to a kidney pool with round clipped shrubs and a brick ranch house" loading="lazy" width="400" height="300">
-        <figcaption class="gallery-caption">Pool surround</figcaption>
-      </figure>
-      <figure class="gallery-item" data-group="more">
-        <img src="/images/service_4_strip_4.webp" alt="Pool deck of large concrete squares separated by thin turf joints, beside a brick home and a modern pergola" loading="lazy" width="400" height="300">
         <figcaption class="gallery-caption">Pool surround</figcaption>
       </figure>
     </div>
