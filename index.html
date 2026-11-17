@@ -4462,6 +4462,11 @@ body.feel-garden-gate .form-group input:focus, body.feel-garden-gate .form-group
 body.feel-garden-gate .quote-form-submit, body.feel-garden-gate .form-submit { width: 100%; justify-content: center; }
 body.feel-garden-gate #contact .form-disclaimer, body.feel-garden-gate .form-disclaimer, body.feel-garden-gate #contact .form-disclaimer a { text-align: center; font-size: 15px; color: var(--text-mid) !important; }
 body.feel-garden-gate .form-thank-you-icon { border-radius: 50%; }
+/* 2026-11-17: the section-band form variant colours its thank-you text white for a dark band, but this
+   look sets every form card white, so the message vanished (University Park). Dark text on the card. */
+body.feel-garden-gate .form-variant-section-band .form-thank-you h3 { color: var(--color-primary) !important; }
+body.feel-garden-gate .form-variant-section-band .form-thank-you p { color: var(--text-mid) !important; }
+body.feel-garden-gate .form-variant-section-band .form-thank-you a { color: var(--color-primary) !important; }
 
 /* Footer: deep ink under a brass fence line. */
 body.feel-garden-gate #site-footer { background: var(--gg-deep) !important; color: rgba(255,255,255,0.82); border-top: 0; }
@@ -6291,7 +6296,7 @@ body.feel-garden-gate .area-cta-card p { color: var(--text-mid) !important; font
         <div class="form-thank-you" id="home-thank-you" aria-live="polite">
           <div class="form-thank-you-icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg></div>
           <h3>We've got your request!</h3>
-          <p>Tell us a little about your yard and we'll follow up with a written quote.</p>
+          <p>Thanks, we have it and we'll be in touch about your yard. Need to talk sooner? Call <a href="tel:+19453683208">+1 (945) 368-3208</a>.</p>
           <a href="/contact/">View full contact page</a>
         </div>
       </div>
