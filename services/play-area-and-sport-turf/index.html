@@ -4344,6 +4344,11 @@ body.feel-garden-gate .form-group input:focus, body.feel-garden-gate .form-group
 body.feel-garden-gate .quote-form-submit, body.feel-garden-gate .form-submit { width: 100%; justify-content: center; }
 body.feel-garden-gate #contact .form-disclaimer, body.feel-garden-gate .form-disclaimer, body.feel-garden-gate #contact .form-disclaimer a { text-align: center; font-size: 15px; color: var(--text-mid) !important; }
 body.feel-garden-gate .form-thank-you-icon { border-radius: 50%; }
+/* 2026-11-17: the section-band form variant colours its thank-you text white for a dark band, but this
+   look sets every form card white, so the message vanished (University Park). Dark text on the card. */
+body.feel-garden-gate .form-variant-section-band .form-thank-you h3 { color: var(--color-primary) !important; }
+body.feel-garden-gate .form-variant-section-band .form-thank-you p { color: var(--text-mid) !important; }
+body.feel-garden-gate .form-variant-section-band .form-thank-you a { color: var(--color-primary) !important; }
 
 /* Footer: deep ink under a brass fence line. */
 body.feel-garden-gate #site-footer { background: var(--gg-deep) !important; color: rgba(255,255,255,0.82); border-top: 0; }
@@ -5157,7 +5162,7 @@ body.feel-garden-gate .area-cta-card p { color: var(--text-mid) !important; font
 
 <footer id="site-footer" role="contentinfo">
   <div class="footer-top"><div class="container"><div class="footer-grid">
-    <div class="footer-col"><h4><a href="/" class="footer-brand-link">University Park Turf Co.</a></h4><p>Artificial turf installed in University Park, Highland Park and nearby Dallas neighborhoods, from backyard lawns and pet turf to putting greens.</p><address class="footer-nap" style="font-style:normal;"><span>University Park, Texas</span><br><a href="tel:+19453683208" style="color:rgba(255,255,255,0.65);">+1 (945) 368-3208</a></address></div>
+    <div class="footer-col"><h4><a href="/" class="footer-brand-link">University Park Turf Co.</a></h4><p>Artificial turf installed in University Park, Highland Park and nearby Dallas neighborhoods, from backyard lawns and pet turf to putting greens.</p><address class="footer-nap" style="font-style:normal;"><span>5944 Luther Lane, Dallas, TX 75225</span><br><a href="tel:+19453683208" style="color:rgba(255,255,255,0.65);">+1 (945) 368-3208</a></address></div>
     <div class="footer-col"><h4>Services</h4><ul>
             <li><a href="/services/backyard-turf-lawns/">Backyard Turf Lawns</a></li>
             <li><a href="/services/backyard-putting-greens/">Backyard Putting Greens</a></li>
