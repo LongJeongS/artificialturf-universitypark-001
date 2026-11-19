@@ -4643,6 +4643,9 @@ body.look-plain .post-section a, body.look-plain .post-intro a { color: var(--co
 body.look-plain .cg-tldr-eyebrow, body.look-plain .cg-range-eyebrow, body.look-plain .cg-toc-list li::before, body.look-plain .cg-toc-icon { color: var(--color-primary); }
 body.look-plain .faq-question svg, body.look-plain .svc-faq-question svg { color: var(--color-primary); }
 body.look-plain .contact-info-value a:hover { color: var(--color-primary); }
+/* Contact promise strip: line its text up with the page column on wide screens
+   (base rule only pads 24px from the window edge; 2026-11-19). */
+body.look-plain .contact-promise { padding: 18px max(24px, calc((100% - var(--max-w)) / 2 + 24px)); }
 /* ...and on the brand-colour area card the phone number is white */
 body.look-plain .area-cta-phone { color: #fff; }
 /* Labels on an accent fill carry dark text */
